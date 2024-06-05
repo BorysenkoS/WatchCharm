@@ -5,3 +5,31 @@ li {
 img {
   display: block;
 }
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.logo {
+  text-decoration: none;
+
+  font-family: "Gilroy", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+
+.button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.menu-icon {
+  display: block;
+  width: 28px;
+  height: 14px;
+}
