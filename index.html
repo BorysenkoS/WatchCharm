@@ -8,37 +8,36 @@
   </head>
   <body>
     <!-- Header -->
-    <header class="page-header">
-      <a class="logo" href="./index.html">watchcharm</a>
-      <button class="button" type="button">
-        <svg class="menu-icon">
-          <use href="./images/icons/sprite.svg#icon-menu"></use>
-        </svg>
-      </button>
-    </header>
+    <div class="header">
+      <header class="page-header">
+        <a class="logo" href="./index.html">watchcharm</a>
+        <button class="button" type="button">
+          <svg class="menu-icon">
+            <use href="./images/icons/sprite.svg#icon-menu"></use>
+          </svg>
+        </button>
+      </header>
+    </div>
     <main>
       <!-- Hero section -->
-      <section>
-        <h1>Welcome to our collection of premium watches</h1>
-        <p>
+      <section class="section page-hero">
+        <h1 class="hero-title">
+          Welcome to our <span class="hero-accent">collection</span> of premium
+          watches
+        </h1>
+        <p class="hero-text">
           Our watches are not just timepieces, but also an expression of your
           personality and lifestyle. From classic designs to modern ones, we
           have a watch to suit every taste and occasion.
         </p>
-        <ul>
-          <li>
-            <img src="./images/mobile/Victoria.jpg" alt="Victoria" width="44" />
-          </li>
-          <li><img src="./images/mobile/John.jpg" alt="John" width="44" /></li>
-          <li>
-            <img
-              src="./images/mobile/Anastasia.jpg"
-              alt="Anastasia"
-              width="44"
-            />
-          </li>
-        </ul>
-        <a href="#">Scroll down</a>
+        <div class="scroll">
+          <img
+            src="./images/mobile/image.jpg"
+            alt="Victoria-Anastsia-John"
+            width="108"
+          />
+          <a class="hero-scroll" href="#footer">Scroll down</a>
+        </div>
         <img
           src="./images/mobile/Rectangle.jpg"
           alt="G-shock"
@@ -190,7 +189,7 @@
       <button type="submit">Send</button>
       <img src="./images/mobile/contactImg.jpg" alt="G-shock" />
       <!-- Footer -->
-      <footer>
+      <footer id="footer">
         <a href="./index.html">watchcharm</a>
         <ul>
           <li><a href="https://www.facebook.com/">facebook</a></li>
@@ -217,6 +216,7 @@
           <li><a href="#">Privacy Policy</a></li>
         </ul>
       </footer>
+      <script src="./script.js"></script>
     </main>
   </body>
 </html>
